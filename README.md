@@ -15,5 +15,24 @@ Pytorch source code for paper
 These can be installed using `pip` by running:
 
 ```bash
-pip install -r requirements.txt
+>> pip install -r requirements.txt
 ```
+
+## Usage
+
+### Synthetic data experiments
+
+To reproduce the the flow simulations between synthetic distributions (Figs 1, 2, 5 and 6) first run the bash script `experiments.bash`, which calls the main python scripts with the appropriate paramters to reproduce the figure:
+
+```bash
+>> bash experiments.bash
+```
+The results will be saved in the folder `final_outputs` and will be used by the notebook `plot_synthetic_data.ipynb` to generate the Figures 1, 2, 5 and 6 in the paper.
+
+ <img src="/figs/syn_cat2heart.png" width="800">  
+ <img src="/figs/syn_cat2heart_mmd.png" width="360">
+
+
+### Interpolation analysis of scRNA-seq data
+
+The notebook `wot_comparison.ipynb` reproduces the interpolation analysis of single-cell RNA sequencing data and generates the relative plots (Figs 4 and 8 in the paper). Please, refer to the instruction in the notebook to download and prepare the data that is used. 
