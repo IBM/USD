@@ -37,6 +37,8 @@ The results will be saved in the folder `final_outputs` and will be used by the 
 
 The notebook `wot_comparison.ipynb` reproduces the interpolation analysis of single-cell RNA sequencing data and generates the relative plots (Figs 4 and 8 in the paper). Please, refer to the instruction in the notebook to download and prepare the data that is used. 
 
+ <img src="/figs/wot.png" width="400">  
+ 
 
 ## Citation
 > Youssef Mroueh, Mattia Rigotti, "Unbalanced Sobolev Descent", NeurIPS, 2020 [[arXiv](https://arxiv.org/abs/2009.14148)]
