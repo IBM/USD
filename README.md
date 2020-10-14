@@ -1,7 +1,7 @@
 # Unbalanced Sobolev Descent
 
 Pytorch source code for paper
-> Youssef Mroueh and Mattia Rigotti, "Unbalanced Sobolev Descent", NeurIPS 2020 [[arXiv:2009.14148](https://arxiv.org/abs/2009.14148)]
+> Youssef Mroueh and Mattia Rigotti, "Unbalanced Sobolev Descent", in Advances in Neural Information Processing Systems 34 (NeurIPS), Dec. 2020 [[arXiv:2009.14148](https://arxiv.org/abs/2009.14148)]
 
 
 ## Requirements
@@ -41,4 +41,4 @@ The notebook `wot_comparison.ipynb` reproduces the interpolation analysis of sin
  
 
 ## Citation
-> Youssef Mroueh, Mattia Rigotti, "Unbalanced Sobolev Descent", NeurIPS, 2020 [[arXiv](https://arxiv.org/abs/2009.14148)]
+> Youssef Mroueh, Mattia Rigotti, "Unbalanced Sobolev Descent", in Advances in Neural Information Processing Systems 34 (NeurIPS), Dec. 2020 [[arXiv](https://arxiv.org/abs/2009.14148)]
