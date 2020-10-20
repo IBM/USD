@@ -2,6 +2,10 @@
 set -e
 set -o pipefail
 
+if [ ! -d final_outputs ]; then
+    mkdir final_outputs
+fi
+
 # Experiment 1a: gauss -> mog (Sobolev, i.e. tau = 0.0)
 
 if [ ! -f final_outputs/1a_weighted_noW_gau-mog.pt ]; then
